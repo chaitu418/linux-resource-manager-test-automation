@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test artifacts and test files
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+candidate_evaluation_tests/  # Exclude evaluation tests directory from version control
+evaluation_tools/ # Exclude AI detection scripts directory from version control
+
+# Local development
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Local development data
+*.db
+*.sqlite3
+
+# Benchmark results
+benchmark.json
+
+# System Files
+.DS_Store
+Thumbs.db
